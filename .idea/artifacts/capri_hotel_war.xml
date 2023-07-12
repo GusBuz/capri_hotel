@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="capri_hotel:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>capri_hotel</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="capri_hotel-1.war">
+      <element id="artifact" artifact-name="capri_hotel:war exploded" />
+    </root>
+  </artifact>
+</component>

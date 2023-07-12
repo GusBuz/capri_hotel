@@ -1,0 +1,161 @@
+header{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #A45759;
+    justify-content: center;
+}
+
+header a, p {
+    padding: 7px;
+    color: #fafaf3;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #fafaf3 50%, #FFEDED 50%);
+}
+
+form{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 20px;
+    justify-content: space-between;
+}
+
+.pageContent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.leftBackground, .rightBackground{
+    justify-content: center;
+    align-content: center;
+    height: calc(100vh - 60px);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    width: 130px;
+    height: 45px;
+    font-size: 21px;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    outline: none;
+    margin: 0 0 20px;
+    border-radius: 10px;
+    background-color: #73080C;
+    color: #FFEDED;
+    cursor: pointer;
+}
+
+.buttons:active{
+    outline: 1px solid #73080C;
+    background-color: #FFEDED;
+    color: #73080C;
+}
+.logoCapri{
+    width: 45%;
+    margin: 15px;
+}
+.halfIllustration {
+    height: 50%;
+    margin: 5px;
+}
+
+h1{
+    font-size: 40px;
+    color: #73080C;
+}
+
+h2{
+    font-size: 25px;
+    color: #73080C;
+}
+
+label{
+    font-size: 15px;
+    color: #73080C;
+    padding: 7px;
+}
+
+input[type="text"], input[type="date"]{
+    height: 10px;
+    background-color: #FFEDED;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: #73080C;
+    outline: none;
+}
+
+.doubleColumnContainer{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.doubleColumnInput{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.fullInput{
+    width: 380px;
+}
+
+.halfInput {
+    width: 150px;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #A45759;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 7px;
+    color: #fafaf3;
+}
+
+.footerLogo{
+    height: 21px;
+    margin: 0 5px 0;
+}

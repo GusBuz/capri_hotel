@@ -1,0 +1,164 @@
+header{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #A45759;
+    justify-content: center;
+}
+
+header a, p {
+    padding: 7px;
+    color: #fafaf3;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #fafaf3 50%, #FFEDED 50%);
+}
+
+.pageContent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.leftBackground, .rightBackground{
+    justify-content: center;
+    align-content: center;
+    height: calc(100vh - 60px);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    width: 130px;
+    height: 45px;
+    font-size: 21px;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    outline: none;
+    margin: 0 0 20px;
+    border-radius: 10px;
+    background-color: #73080C;
+    color: #FFEDED;
+    cursor: pointer;
+}
+
+.buttons:active{
+    outline: 1px solid #73080C;
+    background-color: #FFEDED;
+    color: #73080C;
+    cursor: pointer;
+}
+
+.logoCapri{
+    width: 45%;
+    margin: 15px;
+}
+
+.halfIllustration {
+    height: 50%;
+    margin: 5px;
+}
+
+.entireIllustration{
+    height: 75%;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: #73080C;
+}
+
+h2{
+    font-size: 25px;
+    color: #73080C;
+}
+
+select{
+    width: 28vw;
+    height: 50px;
+    background-color: #FFEDED;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    border-radius: 10px;
+    padding: 14px 0 10px 20px   ;
+    font-size: 18px;
+    color: #73080C;
+    outline: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+label{
+    font-size: 21px;
+    color: #73080C;
+    padding: 7px;
+}
+
+input[type="text"], [type="date"], [type="password"]{
+    width: 25vw;
+    height: 5px;
+    background-color: #FFEDED;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 21px;
+    color: #73080C;
+    outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #A45759;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 7px;
+    color: #fafaf3;
+}
+
+.footerLogo{
+    height: 21px;
+    margin: 0 5px 0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}

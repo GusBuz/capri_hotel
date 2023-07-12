@@ -1,0 +1,227 @@
+header{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #A45759;
+    justify-content: center;
+}
+
+header a, p {
+    padding: 7px;
+    color: #fafaf3;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fafaf3;
+}
+.pageContent{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoCapri{
+    width: 10%;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: #73080C;
+}
+
+.buttonsAboveTable{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tableTabs{
+    width: 130px;
+    height: 45px;
+    font-size: 21px;
+    border: 2px solid #73080C;
+    outline: none;
+    margin: 0 0 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #FFEDED;
+    color: #73080C;
+    cursor: pointer;
+}
+
+
+.tableTabs.selected{
+    width: 130px;
+    height: 45px;
+    font-size: 21px;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    outline: none;
+    margin: 0 0 0;
+    border-radius: 10px 10px 0 0;
+    background-color: #73080C;
+    color: #FFEDED;
+}
+
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 21px;
+    color: #73080C;
+}
+
+select{
+    width: 200px;
+    height: 49px;
+    background-color: #FFEDED;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    border-radius: 10px;
+    padding: 15px 0 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    color: #73080C;
+    outline: none;
+    cursor: pointer;
+}
+
+
+#searchInput, #dateSearchInput{
+    width: 15vw;
+    height: 5px;
+    background-color: #FFEDED;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 21px;
+    color: #73080C;
+    outline: none;
+}
+
+#dateSearchInput::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+}
+
+.tableContent{
+    display: none;
+}
+
+.tableContent.show{
+    display: block;
+}
+
+.selectedTable{
+    border: 25px solid #73080C;
+    width: 80vw;
+    height: 45vh;
+    border-radius: 0 0 10px 10px ;
+    overflow: auto;
+}
+
+.reservationHeader, .guestHeader{
+    background-color: #FFEDED;
+    position: sticky;
+    top: 0;
+}
+
+table{
+    color: #73080C;
+    /*border-collapse: collapse;*/
+    width: 100%;
+}
+
+tr th:first-child{
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid #73080C;
+    padding: 8px;
+    text-align: left;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 3px #73080C;
+    outline: 2px solid #FFEDED;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: #73080C;
+
+}
+
+.buttonsBelowTable{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 0;
+}
+
+.buttons {
+    width: 130px;
+    height: 45px;
+    font-size: 21px;
+    border: 1px solid rgba(115, 8, 12, 0.1);
+    outline: none;
+    margin: 0 0 0 10px;
+    border-radius: 10px;
+    background-color: #73080C;
+    color: #FFEDED;
+    cursor: pointer;
+}
+.buttons:active{
+    outline: 1px solid #73080C;
+    background-color: #FFEDED;
+    color: #73080C;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #A45759;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 7px;
+    color: #fafaf3;
+}
+
+.footerLogo{
+    height: 21px;
+    margin: 0 5px 0;
+}

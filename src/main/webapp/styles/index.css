@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to left, #fafaf3 50%, #FFEDED 50%);
+}
+
+.rightBackground{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginImg{
+    width: 200px;
+}
