@@ -1,6 +1,3 @@
-<p align="center"><img src=alura-one-logo.png></p>
-<hr>
-
 <h2 align='center'>Sistema de gerenciamento de hotel - Capri Hotel</h2>
 
 <p align='center'>
@@ -21,6 +18,10 @@ A inspiração para a construção dessa aplicação foi o [Challenge ONE - Hote
 <hr>
 
 ## 🎥 Preview
+
+
+https://github.com/GusBuz/capri_hotel/assets/116600311/f8b11a1d-cc05-4dea-afb5-f788d757bf47
+
 
 <hr>
 
