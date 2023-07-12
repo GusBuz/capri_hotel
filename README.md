@@ -54,4 +54,4 @@ As tecnologias usadas nesse projeto foram:
 
 ## 💾 Projeto
 
-Para acessar a aplicação é só baixar o arquivo WAR do projeto [aqui]() e executar num servidor Java. 
+Para acessar a aplicação é só baixar o arquivo WAR do projeto [aqui](https://github.com/GusBuz/capri_hotel/blob/main/github/capri_hotel.war) e executar num servidor Java. 
